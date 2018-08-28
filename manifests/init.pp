@@ -43,6 +43,8 @@
 # Copyright 2018 Your name here, unless otherwise noted.
 #
 class ssh {
-
-
+  file { '/tmp/ttt':
+    ensure => file, 
+    content => "This is a test from GITHUB",
+  }  
 }
